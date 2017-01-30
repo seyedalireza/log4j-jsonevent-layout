@@ -3,7 +3,7 @@
   <groupId>net.logstash.log4j</groupId>
   <artifactId>jsonevent-layout</artifactId>
   <packaging>jar</packaging>
-  <version>1.8-SNAPSHOT</version>
+  <version>1.7.1-KZO</version>
   <name>jsonevent-layout</name>
   <description>Log4j pattern layout that conforms to the logstash json_event format</description>
   <url>http://logstash.net</url>
@@ -179,12 +179,12 @@
   </profiles>
 <distributionManagement>
   <snapshotRepository>
-    <id>ossrh</id>
-    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    <id>kzoinnovations-snapshots</id>
+    <url>https://nexus.kzoinnovations.com/nexus/content/repositories/kzoinnovations-snapshots/</url>
   </snapshotRepository>
   <repository>
-    <id>ossrh</id>
-    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    <id>kzoinnovations-releases</id>
+    <url>https://nexus.kzoinnovations.com/nexus/content/repositories/kzoinnovations-releases/</url>
   </repository>
 </distributionManagement>
 </project>
